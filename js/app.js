@@ -5,7 +5,7 @@ let weatherLocation = document.querySelector(".weather__location");
 let containerApp = document.querySelector(".container__wrap");
 let container = document.querySelector(".container")
 
-const weatherKey = 'ebe187b9c98855b996bad031cbbaf7f7'
+const weatherKey = 'insert token here'
 
 function callLocation() {
     if (navigator.geolocation) {
